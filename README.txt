@@ -2,8 +2,8 @@ Code Generator 0.1
 Alias : Code Generator Beta 1
 
 Description : Simple code generator created in java that takes input in the form of a file and creates two 
-file containing data structures created based on the instructions provided in the input file.
-**This project is created as an exercise while reading the book Pragmatic Programmer by Andrew Hunt and David Thomas**
+files containing data structures created based on the instructions provided in the input file.
+**This project is created as an exercise being part of the book "Pragmatic Programmer by Andrew Hunt and David Thomas"**
 
 Input : a text file containing directions to create data structures.
 # comment
