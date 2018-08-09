@@ -36,6 +36,9 @@ public class Application {
             String javaResponse = javaParser.parse(tokenList);
             writerJava.print(javaResponse);
 
+            String javascriptResponse = javascriptParser.parse(tokenList);
+            writerJS.print(javascriptResponse);
+
         }catch(IOException e) {
             e.printStackTrace();
         }catch(Exception e) {

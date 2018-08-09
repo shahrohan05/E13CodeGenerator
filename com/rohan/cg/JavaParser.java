@@ -11,7 +11,7 @@ class JavaParser {
             switch(tokens.get("type")) {
                 case "#" : response += "//"+tokens.get("line"); break;
                 case "N" : response += "\n class "+tokens.get("fieldName")+" {"; break;
-                case "F" : response += "\n "+this.getType(tokens.get("fieldType"))+" "+tokens.get("fieldName")+";"; break;
+                case "F" : response += "\n\t "+this.getType(tokens.get("fieldType"))+" "+tokens.get("fieldName")+";"; break;
                 case "E" : response += "\n}"; break;
             }
             
