@@ -12,3 +12,11 @@ F field(s)
 E end
 
 Output : A java file containing the type definition code as per the instructions and a javascript file with the same.
+
+Sample Input :
+# Sample Product type
+N Product
+F id number
+F name string
+F order_code number
+E
